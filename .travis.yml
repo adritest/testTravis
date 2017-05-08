@@ -2,6 +2,8 @@ dist: trusty
 sudo: false
 group: beta
 language: node_js
+notifications:
+  email: false
 node_js:
   - "6"
 before_install:
